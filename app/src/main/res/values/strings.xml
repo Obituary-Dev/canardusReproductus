@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Canardus Reproductus</string>
+
+
+    <!-- Home Page -->
+    <string name="home_page_title">Let`s discover</string>
+    <string name="home_page_last_duck_section">Last ducks</string>
+
+    <!-- Customized ducks -->
+    <string name="item_duck_name">Name</string>
+    <string name="item_duck_desc">Short description</string>
+
+    <!-- Collection Page -->
+    <string name="collection_page_title">Favourite ducks</string>
+
+    <!-- Add duck Page -->
+    <string name="add_duck_page_title">Add a new duck</string>
+    <string name="add_duck_page_upload_button">Upload your image</string>
+    <string name="add_duck_page_name_input">@string/item_duck_name</string>
+    <string name="add_duck_page_desc_input">@string/item_duck_desc</string>
+    <string-array name="add_duck_page_type_spinner_input">
+        <item>Dabbling ducks</item>
+        <item>Diving ducks</item>
+        <item>Geese</item>
+        <item>Other waterfowl</item>
+    </string-array>
+    <string name="add_duck_page_latin_input">Latin name</string>
+    <string name="add_duck_page_length_input">Length</string>
+    <string name="add_duck_page_weight_input">Weight</string>
+    <string-array name="add_duck_page_egg_spinner_input">
+        <item>0-5 eggs</item>
+        <item>6-10 eggs</item>
+        <item>11-15 eggs</item>
+        <item>16-20 eggs</item>
+    </string-array>
+
+
+    <string name="add_duck_page_submit_button">Submit</string>
+
+    <!-- Detail Pop-Up Window -->
+    <string name="pop_up_window_duck_name">Duck Name</string>
+    <string name="pop_up_window_duck_description_title">Description</string>
+    <string name="pop_up_window_duck_description_subtitle">Sub Description</string>
+    <string name="pop_up_window_duck_type_title">Type</string>
+    <string name="pop_up_window_duck_type_subtitle">Dabbling ducks</string>
+    <string name="pop_up_window_duck_latin_title">Latin</string>
+    <string name="pop_up_window_duck_latin_subtitle">Canardus Reproductus</string>
+    <string name="pop_up_window_duck_length_title">Length</string>
+    <string name="pop_up_window_duck_length_subtitle">Length</string>
+    <string name="pop_up_window_duck_weight_title">Weight</string>
+    <string name="pop_up_window_duck_weight_subtitle">Weight</string>
+    <string name="pop_up_window_duck_egg_title">Eggs</string>
+    <string name="pop_up_window_duck_egg_subtitle">Eggs</string>
+
+    <string name="bottom_home_item">Home</string>
+    <string name="bottom_collection_item">Collection</string>
+    <string name="bottom_add_duck_item">New</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "67775600103",
+    "project_id": "canardus-reproductus",
+    "storage_bucket": "canardus-reproductus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67775600103:android:c023c8fa3eaa36e7efd942",
+        "android_client_info": {
+          "package_name": "levi.ackerman.canardus_reproductus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67775600103-p3cf0l4bv0g4p9vci6jbvllf57qis8lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ipTs7P3SMFT0MLjZ6BqvLa8KYnZYnIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67775600103-p3cf0l4bv0g4p9vci6jbvllf57qis8lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

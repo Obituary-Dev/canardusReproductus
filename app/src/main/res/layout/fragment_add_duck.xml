@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/default_margin">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add_duck_page_upload_button"
+                android:layout_height="90dp"
+                android:layout_width="wrap_content"
+                android:backgroundTint="@color/light_green"
+                android:text="@string/add_duck_page_upload_button"
+                app:cornerRadius="0dp"
+                style="@style/TitleTextStyle"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+
+            <ImageView
+                android:id="@+id/preview_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/northern_pintail" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/add_duck_page_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/add_duck_page_name_input"
+            style="@style/defaultTextStyle"
+            android:paddingLeft="@dimen/default_margin"
+            />
+
+        <EditText
+            android:id="@+id/add_duck_page_desc_input"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/add_duck_page_desc_input"
+            style="@style/defaultTextStyle"
+            android:paddingLeft="@dimen/default_margin"
+            />
+
+        <Spinner
+            android:id="@+id/add_duck_page_type_spinner_input"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:entries="@array/add_duck_page_type_spinner_input"
+            />
+
+        <EditText
+            android:id="@+id/add_duck_page_latin_input"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/add_duck_page_latin_input"
+            style="@style/defaultTextStyle"
+            android:paddingLeft="@dimen/default_margin"
+            />
+        <EditText
+            android:id="@+id/add_duck_page_length_input"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/add_duck_page_length_input"
+            style="@style/defaultTextStyle"
+            android:paddingLeft="@dimen/default_margin"
+            />
+
+        <EditText
+            android:id="@+id/add_duck_page_weight_input"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/add_duck_page_weight_input"
+            style="@style/defaultTextStyle"
+            android:paddingLeft="@dimen/default_margin"
+            />
+
+        <Spinner
+            android:id="@+id/add_duck_page_egg_spinner_input"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:entries="@array/add_duck_page_egg_spinner_input"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_duck_page_submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="@color/dark_grey"
+            android:text="@string/add_duck_page_submit_button"
+            app:cornerRadius="0dp"
+            style="@style/TitleTextStyle"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:layout_marginTop="@dimen/item_margin"
+            />
+
+    </LinearLayout>
+</ScrollView>
